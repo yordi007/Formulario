@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>formularios</title>
+        <meta charset="utf-8">
+        <link href="css/estilo1.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header id="logo">
+            <h1>FORMULARIOS</h1>
+            <p id="subtitulo">Bienvenidos a nuestro sitio Formularios</p>
+        </header>
+        <section>
+            <form name="formulario1" id="formulario1">
+                <h3>Registrese</h3>
+                <label> Nombre    <input type="text" name="nombre" value="Jose" required autofocus>   </label>
+                <label>Apellido      <input type="text" name="apellido" maxlength="10" size="10" required>  </label>
+                <label>Telefono <input name="telefono" type="tel"></label>
+                 <label> correo <input type="email" name="correo"></label>
+                <label>colores <input name="color" type="color"></label>  
+                  <label> N Seaial   <input type="text" name="serial" value="A2342B233" readonly disabled>   </label>
+                   <label> N Placa   <input type="text" name="placa" placeholder="Escriba EL Num de Placa de su Moto" maxlength="12"></label>
+                   <label >Clave <input type="password" name="clave" maxlength="12">  </label>
+                   <label>fecha <input name="fecha" type="date"></label> 
+                   <label>Edad <input name="edad" min="5" max="20" type="number"></label>
+                   <label>URL <input type="url" name="url"></label>  
+                   <label>Rango <input type="range" name="rango"></label>  
+            <label>Escriba la Falla  <textarea name="falla" cols="35" rows="20" placeholder="Esqueba aqui"> aqui</textarea> </label>       
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpiar">
+            </form>
+        </section>
+        <section id="seccion">
+            
+        </section>
+       <footer id="pie"><p>Todos los derechos reservados-@2021</p>
+       <p> <strong>Telefono:</strong> 322-8925964</p>
+       </footer>
+        </body>
+</html>
