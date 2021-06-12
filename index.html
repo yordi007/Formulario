@@ -12,9 +12,10 @@
             <p id="subtitulo">Bienvenidos a nuestro sitio Formularios</p>
         </header>
         <section>
-            <form name="formulario1" id="formulario1">
+            <form name="formulario1" id="formulario1" action="registro.php" method="get">
                 <h3>Registrese</h3>
                 <label> Nombre    <input type="text" name="nombre" value="Jose" required autofocus>   </label>
+                <input type="image" src="img/1190.png" value="buscar" onclick="javascript:alert('inicia la busqueda')">
                 <label>Apellido      <input type="text" name="apellido" maxlength="10" size="10" required>  </label>
                 <label>Telefono <input name="telefono" type="tel"></label>
                  <label> correo <input type="email" name="correo"></label>
@@ -29,6 +30,7 @@
             <label>Escriba la Falla  <textarea name="falla" cols="35" rows="20" placeholder="Esqueba aqui"> aqui</textarea> </label>       
                 <input type="submit" value="enviar">
                 <input type="reset" value="limpiar">
+                <input type="button" value="saludo" onclick="javascript:alert('probando boton')">
             </form>
         </section>
         <section id="seccion">
